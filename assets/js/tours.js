@@ -33,11 +33,11 @@ function tourSelected(tourId) {
             { lat: -23.544558309148307, lng: -46.643824730683605 },
             { lat: -23.550114427773106, lng: -46.64513414697759 }
         ];    
-        h2PointA.innerHTML = "Bixiga neighbourhood";
+        h2PointA.innerHTML = "Itaúnas Beach, Conceição da Barra";
         h2PointB.innerHTML = "Itália Building";
         h2PointC.innerHTML = "Famiglia Mancini";
 
-        pPointA.innerHTML = "Bixiga is a neighbourhood in the center of the city of São Paulo, Brazil. It is located within the district of Bela Vista. Bixiga is known for having been a hub for Italian immigrants. The origins of the neighborhood can be traced to the foundation of the city. Nowadays, Bixiga is considered part of the official district of Bela Vista, but appeared on city maps with the Bixiga designation until 1943. It was incorporated into Bela Vista with the passing of Law 1242, in 1910. The area between the historic core, Paulista Avenue, 23 de Maio Avenue and 9 de Julho Avenue became, in 1878, the Chácara do Bexiga (Bexiga Farmstead), owned by Antônio José Leite Braga.";
+        pPointA.innerHTML = "In the municipality of Conceição da Barra, on the border with Bahia, is the beach of Itaúnas.It extends for 25km between the mouth of the Itaúnas River and the Riacho Doce, which separate the territory of Espírito Santo and Bahia.The beach is part of a Conservation Unit, the Itaúnas State Park, listed as a Natural Heritage Site by UNESCO.The region has several rustic and charming inns, with a lot of young people and with several options for tours to do in the region.";
         pPointB.innerHTML = "Built in 1956, the Itália Building has long been the highest in the city, with 165 me is one of the most visited attractions in the capital, due to 360º view of the city that its terrace, where is located the restaurant Terrace Italy provides.With 44 floors, 19 elevators, 52 000 m², seating for ten thousand and four thousand windows on its facade, the building is protected by Heritage. Inside there is a library, a games room and also the Teatro Italy.";
         pPointC.innerHTML = "On charming and romantic Rua Avanhandava – a leafy, almost European-feeling side street in Centro – this traditional trattoria is one of the city's most atmospheric, with throngs of Chianti fiascos hanging from the ceiling and an old-school family-style Italian ambience. In reality portions serve three, which is how many you'll need to divvy up the perusing of the gigantic menu of pasta, meat and seafood dishes.";
     
