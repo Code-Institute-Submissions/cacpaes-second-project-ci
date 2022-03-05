@@ -34,12 +34,12 @@ function tourSelected(tourId) {
             { lat: -23.550114427773106, lng: -46.64513414697759 }
         ];    
         h2PointA.innerHTML = "Itaúnas Beach, Conceição da Barra";
-        h2PointB.innerHTML = "Itália Building";
-        h2PointC.innerHTML = "Famiglia Mancini";
+        h2PointB.innerHTML = "Praia dos Padres, Guarapari";
+        h2PointC.innerHTML = "Praia do Bosque, São Mateus";
 
         pPointA.innerHTML = "In the municipality of Conceição da Barra, on the border with Bahia, is the beach of Itaúnas.It extends for 25km between the mouth of the Itaúnas River and the Riacho Doce, which separate the territory of Espírito Santo and Bahia.The beach is part of a Conservation Unit, the Itaúnas State Park, listed as a Natural Heritage Site by UNESCO.The region has several rustic and charming inns, with a lot of young people and with several options for tours to do in the region.";
-        pPointB.innerHTML = "Built in 1956, the Itália Building has long been the highest in the city, with 165 me is one of the most visited attractions in the capital, due to 360º view of the city that its terrace, where is located the restaurant Terrace Italy provides.With 44 floors, 19 elevators, 52 000 m², seating for ten thousand and four thousand windows on its facade, the building is protected by Heritage. Inside there is a library, a games room and also the Teatro Italy.";
-        pPointC.innerHTML = "On charming and romantic Rua Avanhandava – a leafy, almost European-feeling side street in Centro – this traditional trattoria is one of the city's most atmospheric, with throngs of Chianti fiascos hanging from the ceiling and an old-school family-style Italian ambience. In reality portions serve three, which is how many you'll need to divvy up the perusing of the gigantic menu of pasta, meat and seafood dishes.";
+        pPointB.innerHTML = "Located on the way to Rodovia do Sol, Guarapari has more than 50 beaches and you can certainly explore a good part of the Espírito Santo coast there.Praia dos Padres is one of the city's favorites and is located in the midst of coconut trees that surround the beach and make the view even more incredible.Next to the beach there are also some trails that lead to higher areas from where it is possible to have privileged views of the beach.";
+        pPointC.innerHTML = "If you are one of those people who love deserted beaches and preserved nature, Praia do Bosque is your place.It is located in the municipality of São Mateus, on the northern coast of the state, which is less explored by tourists, and precisely because of this it is possible to find places as calm as Praia do Bosque.";
     
         imgPointA.src = "assets/images/tours/bixiga.jpg"; 
         imgPointB.src = "assets/images/tours/terraco_ita.jpg"; 
@@ -56,13 +56,13 @@ function tourSelected(tourId) {
             { lat: -23.560658526904586, lng: -46.6946764027999 },
             { lat:  -23.54929767878088, lng: -46.612906331635756}
         ];           
-        h2PointA.innerHTML = "Museum of Art of São Paulo – MASP";
-        h2PointB.innerHTML = "Tomie Ohtake Institute";
-        h2PointC.innerHTML = "Immigration Museum of São Paulo State";
+        h2PointA.innerHTML = "Nossa Senhora da Penha Convent Museum";
+        h2PointB.innerHTML = "Reis Magos Church";
+        h2PointC.innerHTML = "Domingos Martins House of Culture";
 
-        pPointA.innerHTML = "Located in the heart of the city, Paulista Avenue, the Museu de Arte de São Paulo Assis Chateaubriand – is one of the most important museums in the Southern Hemisphere and one of the main postcards of the city. It is on the list of the ten most visited tourist attractions of São Paulo, with a collection of about eight thousand pieces.It features works by great names of the national painting (Candido Portinari, Di Cavalcanti, Anita Malfatti and Almeida Junior) and international (Raphael, Mantegna, Botticceli, Delacroix, Renoir, Monet, Cézanne, Picasso, Modigliani, Toulouse-Lautrec, Van Gogh, Matisse and Chagall). The inauguration took place in 1968 and 1982, the MASP was listed by Condephaat – Council of Historical Heritage Protection, Archaeological, Artistic and Tourist of the State and in 2003 by IPHAN.";
-        pPointB.innerHTML = "Opened in 2001, the Instituto Tomie Ohtake has no permanent collection, but hosts exhibitions of contemporary art, which are reference in the last 50 years, and works of the artist who gives name to the space. Designed by architect Ruy Ohtake, the complex has avant-garde architecture. Its 65 000 m² are divided between work, culture and leisure. With total area of ​​7,500 m², it has seven exhibition rooms, four workshops, a bookstore, an object store, documentation area, auditorium, restaurant, café, theater and cinema.";
-        pPointC.innerHTML = "The Museum of the São Paulo State Immigration is primarily responsible for preserving the memory of the people who arrived in Brazil in the mid- nineteenth and twentieth centuries, and that their work helped build and transform the state capital and the country.Acting as a meeting point of different immigrant communities, the origins of the current museum date back to 1887, when it was founded the Immigrants Lodge, a place that had the duty to receive and forward to working travelers brought by the government. One of the main sights of the city, not only the historical value, but also for its centuries-old architecture, the museum has rich attractions such as the wall on which are etched in wood over 14,000 surnames, from different corners of the globe.";
+        pPointA.innerHTML = "Opened in 2000, the Museum of Nossa Senhora da Penha is located in the former house of the Pilgrims.The place displays several objects with more than 400 years of the historical collection of the Convent, are in the exhibition sacred, liturgical and clothing pieces, all narrating the daily life of the Sanctuary.";
+        pPointB.innerHTML = "Completed in 1580, listed by IPHAN and recently restored, it is one of the best examples of Jesuit architecture in Brazil. The Reis Magos Church and Residence is one of the main examples of the Brazilian Jesuit architectural heritage, as it is one of the buildings that suffered less interference in the centuries that followed its construction. The architectural complex is also formed by a square and is located at 40 meters above sea level.The church boasts, on the altar, an altarpiece carved in wood of great artistic value. The church altar, built in 1701, features an altarpiece carved in wood and, in the center, a work by the painter Friar Belchior Paulo, depicting the adoration of the Magi. The painting is considered one of the first oil paintings in Brazil, since Jesuit painting in Brazil begins in 1587, with the arrival of Friar Belchior Paulo.";
+        pPointC.innerHTML = "The House of Culture and Historical Museum has a collection of photographs, documents, objects and furniture that belonged to immigrants and descendants of Germans, Pomeranians and Italians who colonized the municipality.In addition to the museum, the space always offers exhibitions of varied themes and acts as a tourist information point.";
         
         imgPointA.src = "assets/images/tours/masp.jpg"; 
         imgPointB.src = "assets/images/tours/tomie_ohtake.jpg"; 
