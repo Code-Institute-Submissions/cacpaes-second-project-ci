@@ -90,6 +90,71 @@
             </div>
         </div>
     </section>
-    <!-- end tour Section -->   
+    <!-- end tour Section -->
+    <!-- tourDetail section -->
+    <section id="tourDetails">
+        <div class="tourDetails container">
+            <div class="tourDetails-header">
+                <h1 class="section-title">Tour <span>Details</span></h1>
+            </div>
+            <div class="all-tourDetails">
+                <div class="tourDetail-map">
+                    <div id="map"></div>
+                </div>                        
+                <div class="tourDetail-item">
+                    <div class="tourDetail-info">
+                        <h1>Point A</h1>
+                        <a href="#" id="a-pointA" target="_blank" title="Learn more" rel="noopener"><h2 id="h2-pointA"></h2></a>
+                        <p id="p-pointA"></p>
+                    </div>
+                    <div class="tourDetail-img">
+                        <img id="img-pointA" src="assets/images/home01.jpg" alt="img">
+                    </div>
+                </div>
+                <div class="tourDetail-item">
+                    <div class="tourDetail-info">
+                        <h1>Point B</h1>
+                        <a href="#" id="a-pointB" target="_blank" title="Learn more" rel="noopener"><h2 id="h2-pointB"></h2></a>
+                        <p id="p-pointB"></p>
+                    </div>
+                    <div class="tourDetail-img">
+                        <img id="img-pointB" src="assets/images/home01.jpg" alt="img">
+                    </div>
+                </div>
+                <div class="tourDetail-item">
+                    <div class="tourDetail-info">
+                        <h1>Point C</h1>
+                        <a href="#" id="a-pointC" target="_blank" title="Learn more" rel="noopener"><h2 id="h2-pointC"></h2></a>
+                        <p id="p-pointC"></p>
+                    </div>
+                    <div class="tourDetail-img">
+                        <img id="img-pointC" src="assets/images/home01.jpg" alt="img">
+                    </div>
+                </div>                                 
+            </div>
+        </div>  
+    </section>
+    <!-- end tourDetail section -->
+    <!-- more section -->
+        <!--Inspired by the Rosie's project from a CI class-->
+        <section id="more">
+            <div class="more container">
+                <div class="more-top">
+                    <h1 class="section-title">Get <span>your</span> tour</h1>
+                    <h2>Eager for more? Tell us your interests and travel plans to get a custom tour to SP</h2>
+                </div>
+                <div class="more-form">
+                    <form onsubmit="return sendMail(this);">
+                        <input type="text" name="name" id="fullname" class="more-form-input" placeholder="Name" required />
+                        <input type="email" name="email" id="emailaddress" class="more-form-input" placeholder="e-Mail" required />
+                        <textarea rows="5" name="message" id="message" class="more-form-input" placeholder="Message" required></textarea>
+                        <div class="more-form-button">
+                            <button type="submit" class="cta">Send Tour Request</button>
+                        </div>
+                    </form>
+                </div>         
+            </div>            
+        </section>
+        <!-- endinfo section -->
 </body>
 </html>
