@@ -210,7 +210,7 @@ p {
 
 /* home section */
 #home {
-	background-image: url(../images/home01.jpg);
+	background-image: url(../images/victory-g7c03e2dcd_1500.jpg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -283,7 +283,7 @@ p {
 }
 #about .col-left {
 	width: 250px;
-	height: 360px;
+	height: 500px;
 }
 #about .col-right {
 	width: 100%;
