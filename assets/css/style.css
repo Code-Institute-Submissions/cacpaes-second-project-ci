@@ -41,12 +41,13 @@ p {
 
 .col-right h2 span {
 	color: palevioletred;
+	font-size: 1.8rem;
 }
 
 .section-title {
 	font-size: 4rem;
 	font-weight: 300;
-	color: black;
+	color: rgb(113, 173, 230);
 	margin-bottom: 10px;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
@@ -209,7 +210,6 @@ p {
 
 /* home section */
 #home {
-    /* CREDIT: .jpg from https://www.pexels.com/pt-br/foto/arquitetura-brasil-ponte-espaco-5047706/ */
 	background-image: url(../images/home01.jpg);
 	background-size: cover;
 	background-position: top center;
@@ -310,16 +310,7 @@ p {
 	position: relative;
 	border: 10px solid white;
 }
-#about .col-left .about-img::after {
-	content: '';
-	position: absolute;
-	left: -33px;
-	top: 19px;
-	height: 98%;
-	width: 98%;
-	border: 7px solid rgb(112, 169, 235);
-	z-index: -1;
-}
+
 /* end about section */
 
 /* tours section */
@@ -569,7 +560,7 @@ p {
 }
 /* end footer */
 
-/*credit: css from https://sabe.io/tutorials/how-to-create-modal-popup-box*/
+
 /* modal */
 .modal {
     position: fixed;
@@ -617,8 +608,7 @@ p {
 }
 /* end modal */
 
-/* keyframes
-credit: Hamburger menu from WEB CIFAR https://youtu.be/UfPQe-v8CeE */
+/* keyframes*/
 @keyframes hamburger_puls {
 	0% {
 		opacity: 1;
@@ -629,7 +619,6 @@ credit: Hamburger menu from WEB CIFAR https://youtu.be/UfPQe-v8CeE */
 		transform: scale(1.4);
 	}
 }
-/* credit: responsive nav bar from WEB CIFAR https://youtu.be/pZUQ7tlbi70​  */
 @keyframes text_reveal_box {
 	50% {
 		width: 100%;

@@ -1,4 +1,3 @@
-//credit: Hamburger menu from WEB CIFAR https://youtu.be/UfPQe-v8CeE
 const hamburger = document.querySelector('.header .nav-bar .nav-list .hamburger');
 const mobile_menu = document.querySelector('.header .nav-bar .nav-list ul');
 const menu_item = document.querySelectorAll('.header .nav-bar .nav-list ul li a');
@@ -18,7 +17,7 @@ menu_item.forEach((item) => {
 });
 //end of credit Hamburguer menu
 
-//credit: responsive nav bar from WEB CIFAR https://youtu.be/pZUQ7tlbi70​ 
+
 /*change the color of the menu on scrolling to other sections below*/
 document.addEventListener('scroll', () => {
 	var scroll_position = window.scrollY;
@@ -56,7 +55,6 @@ function writeCurrencyInfo() {
 		Object.keys(data.rates).forEach(function(key) {
 			el.innerHTML += `<h2>1 ${data.base} = ${data.rates[key]} ${key} </h2>`;			
 		});
-		// Credit: javascript date conversion 
 		// https://stackoverflow.com/questions/33299687/how-to-convert-dd-mm-yyyy-string-into-javascript-date-object/33299764
 		el.innerHTML += `<h2>last update: ${new Date(data.date).toLocaleString('en', { dateStyle: 'long' })}</h2>`;
     });
