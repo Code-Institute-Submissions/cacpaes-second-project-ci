@@ -360,7 +360,7 @@ p {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-image: linear-gradient(60deg, #84CEE3 0%, #84CEE3 100%);
+	background-image: linear-gradient(60deg, #D97A9A 0%, #84CEE3 100%);
 	opacity: .8;
 	z-index: -1;
 }
@@ -380,18 +380,6 @@ p {
 	text-align: left;
 }
 
-#tour1{
-	background-image: url(../images/tours/terraco_ita.jpg);
-}
-#tour2{
-	background-image: url(../images/tours/masp.jpg);
-}
-#tour3{
-	background-image: url(../images/tours/ibirapuera.jpg);
-}
-#tour4{
-	background-image: url(../images/tours/jk_iguatemi.jpg);
-}
 /* end tour section */
 
 /* tourDetails section */
@@ -652,7 +640,7 @@ p {
 }
 
 @media only screen and (max-width: 768px) {
-	#tourDetails .tourDetail-map {
+	#tourDetails  {
 		display: flex;
 		justify-content: center;
 		flex-direction: column;
@@ -661,9 +649,7 @@ p {
 		overflow: hidden;
 		border-radius: 10px;
 	}
-	#map {
-		min-height: 360px;
-	}
+	
 }
 
 /* media query for tablet */
