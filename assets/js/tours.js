@@ -36,8 +36,8 @@ function tourSelected(tourId) {
         pPointC.innerHTML = "If you are one of those people who love deserted beaches and preserved nature, Praia do Bosque is your place.It is located in the municipality of São Mateus, on the northern coast of the state, which is less explored by tourists, and precisely because of this it is possible to find places as calm as Praia do Bosque.";
     
         imgPointA.src = "assets/images/beach1.jpg"; 
-        imgPointB.src = "assets/images/"; 
-        imgPointC.src = "assets/images/"; 
+        imgPointB.src = "assets/images/beach2.jpg"; 
+        imgPointC.src = "assets/images/beach3.jpg"; 
 
     }
     else if(tourId == "tour2")
