@@ -367,24 +367,19 @@ p {
 	flex-direction: column;
 	max-width: 1200px;
 	margin: 0 auto;
-	padding: 100px 0;
+	padding: 95px 0;
 }
 #tourDetails .tourDetails-header h1 {
-	margin-bottom: 50px;
+	margin-bottom: 55px;
 }
-#tourDetails .all-tourDetails {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-}
+
 #tourDetails .tourDetail-item {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
 	width: 80%;
-	margin: 20px auto;
+	margin:10px auto;
 	overflow: hidden;
 	border-radius: 10px;
 }
@@ -392,6 +387,7 @@ p {
 	padding: 30px;
 	flex-basis: 50%;
 	height: 100%;
+	width: 100%;
 	display: flex;
 	align-items: flex-start;
 	justify-content: center;
@@ -400,23 +396,24 @@ p {
 	color: white;
 }
 #tourDetails .tourDetail-info h1 {
-	font-size: 3rem;
-	font-weight: 500;
+	font-size: 2rem;
+	font-weight: 400px;
 }
 #tourDetails .tourDetail-info h2 {
 	font-size: 1.8rem;
-	font-weight: 500;
+	font-weight: 500px;
 	margin-top: 10px;
 	color: #84CEE3;
 }
 #tourDetails .tourDetail-info p {
 	color: white;
-	font-size: 1.4rem;
+	font-size: 1.5rem;
 }
 
 #tourDetails .tourDetail-img {
 	flex-basis: 50%;
-	height: 400px;
+	height: 500px;
+	width: 500px;
 	overflow: hidden;
 	position: relative;
 }
