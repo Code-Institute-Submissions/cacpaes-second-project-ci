@@ -84,9 +84,9 @@ function tourSelected(tourId) {
         pPointB.innerHTML = "Tourists can also find handicrafts in the municipality of Serra. On the edge of Jacaraípe is the Associação de Artesãos da Serra (Asas). Come meet the Holy Spirit? Prestige capixaba crafts take beautiful memories home!";
         pPointC.innerHTML = "On weekends, Praça dos Namorados hosts the traditional Feira de Artesanato Artes na Praça, which offers handicrafts and typical foods, in addition to artistic shows. The objective of the Artes na Praça program is to value the work of artisans in Espírito Santo and encourage local production, providing several entrepreneurs in Greater Vitória with the opportunity to sell their products.Today, the Artes na Praça program has the participation of around 200 authorized exhibitors, working in the areas of food, handicrafts, handicrafts, manufactured products and fun toys.";
         
-        imgPointA.src = "assets/images/tours/mercado.jpg"; 
-        imgPointB.src = "assets/images/tours/jk_iguatemi.jpg"; 
-        imgPointC.src = "assets/images/tours/paulista.jpg"; 
+        imgPointA.src = "assets/images/shop1.jpg"; 
+        imgPointB.src = "assets/images/shop2.jpg"; 
+        imgPointC.src = "assets/images/shop3.jpg"; 
 
        
     }
