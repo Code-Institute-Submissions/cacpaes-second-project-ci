@@ -39,6 +39,10 @@ function tourSelected(tourId) {
         imgPointB.src = "assets/images/beach2.jpg"; 
         imgPointC.src = "assets/images/beach3.jpg"; 
 
+        aPointA.href = "https://www.tripadvisor.ie/Attraction_Review-g2000712-d2407993-Reviews-Itaunas_Beach-Conceicao_da_Barra_State_of_Espirito_Santo.html";
+        aPointB.href = "https://www.tripadvisor.com/Attraction_Review-g941641-d2408025-Reviews-Praia_dos_Padres-Guarapari_State_of_Espirito_Santo.html";
+        aPointC.href = "http://www.terracapixaba.com/2018/05/praia-do-bosque.html";
+
     }
     else if(tourId == "tour2")
     {
@@ -54,13 +58,19 @@ function tourSelected(tourId) {
         imgPointA.src = "assets/images/historical1.jpg"; 
         imgPointB.src = "assets/images/historical2.jpg"; 
         imgPointC.src = "assets/images/historical3.jpg"; 
+
+        aPointA.href = "https://www.tripadvisor.ie/Attraction_Review-g303319-d2408107-Reviews-Nossa_Senhora_da_Penha_Convent-Vila_Velha_State_of_Espirito_Santo.html";
+        aPointB.href = "https://www.tripadvisor.ie/Attraction_Review-g2342774-d6436867-Reviews-Igreja_dos_Reis_Magos-Serra_State_of_Espirito_Santo.html";
+        aPointC.href = "https://www.tripadvisor.com/Attraction_Review-g1076184-d4376371-Reviews-Casa_Cultural_Domingos_Martins-Domingos_Martins_State_of_Espirito_Santo.html";
+
+        
        
     }
     else if(tourId == "tour3")
     {
         
 
-        h2PointA.innerHTML = "Valley Botanist";
+        h2PointA.innerHTML = "Vale Botanical Park";
         h2PointB.innerHTML = "Sônia Cabral";
         h2PointC.innerHTML = "Rua da Lama";
 
@@ -70,7 +80,11 @@ function tourSelected(tourId) {
         
         imgPointA.src = "assets/images/visit1.jpg"; 
         imgPointB.src = "assets/images/visit2.jpg"; 
-        imgPointC.src = "assets/images/visit3.jpg";       
+        imgPointC.src = "assets/images/visit3.jpg";  
+        
+        aPointA.href = "http://www.vale.com/brasil/PT/initiatives/environmental-social/botanic-park-v/Paginas/default.aspx";
+        aPointB.href = "https://secult.es.gov.br/palacio-da-cultura-sonia-cabral";
+        aPointC.href = "http://www.amobrasil.com.br/blog/rua-da-lama-porque-esse-nome";
     }
     else if(tourId == "tour4")
     {
@@ -88,7 +102,9 @@ function tourSelected(tourId) {
         imgPointB.src = "assets/images/shop2.jpg"; 
         imgPointC.src = "assets/images/shop3.jpg"; 
 
-       
+        aPointA.href = "https://www.tripadvisor.ie/Tourism-g303319-Vila_Velha_State_of_Espirito_Santo-Vacations.html";
+        aPointB.href = "https://www.tripadvisor.ie/Tourism-g2342774-Serra_State_of_Espirito_Santo-Vacations.html";
+        aPointC.href = "https://www.tripadvisor.com/Attraction_Review-g303320-d6716228-Reviews-Praca_dos_Namorados-Vitoria_State_of_Espirito_Santo.html";
     }
 
    
