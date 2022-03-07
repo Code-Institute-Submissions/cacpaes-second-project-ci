@@ -68,9 +68,9 @@ function tourSelected(tourId) {
         pPointB.innerHTML = "It was built in 1606 and initially housed the old Church of Nossa Senhora da Misericórdia. In 1912, the building was remodeled by the architect André Carloni, during the government of Jerônimo Monteiro (1908-1912), in order to build a seat for the Legislative Assembly. This new space is part of the Cultural Heritage Preservation and Revitalization Program, which is part of the State Government's Strategic Plan of Action and Cultural Policy, developed by the Secretary of State for Culture (Secult).";
         pPointC.innerHTML = "Frequented since 1980, mostly by professors and students from UFES (Federal University of Espírito Santo), Rua da Lama is located on Avenida Anísio Fernandes Coelho, in Jardim da Penha, and received this nickname because, before being paved, the street covered in mud on rainy days. The street still houses one of the main bohemian strongholds of Vitória, bringing together in a single street, several options of bars and restaurants.";
         
-        imgPointA.src = "assets/images/bandeira es.png"; 
-        imgPointB.src = "assets/images/tours/saopaulo_hall.jpg"; 
-        imgPointC.src = "assets/images/tours/skye_bar.jpg";       
+        imgPointA.src = "assets/images/visit1.jpg"; 
+        imgPointB.src = "assets/images/visit2.jpg"; 
+        imgPointC.src = "assets/images/visit3.jpg";       
     }
     else if(tourId == "tour4")
     {
