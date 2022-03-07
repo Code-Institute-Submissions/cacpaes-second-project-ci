@@ -51,9 +51,9 @@ function tourSelected(tourId) {
         pPointB.innerHTML = "Completed in 1580, listed by IPHAN and recently restored, it is one of the best examples of Jesuit architecture in Brazil. The Reis Magos Church and Residence is one of the main examples of the Brazilian Jesuit architectural heritage, as it is one of the buildings that suffered less interference in the centuries that followed its construction. The architectural complex is also formed by a square and is located at 40 meters above sea level.The church boasts, on the altar, an altarpiece carved in wood of great artistic value.";
         pPointC.innerHTML = "The House of Culture and Historical Museum has a collection of photographs, documents, objects and furniture that belonged to immigrants and descendants of Germans, Pomeranians and Italians who colonized the municipality.In addition to the museum, the space always offers exhibitions of varied themes and acts as a tourist information point.";
         
-        imgPointA.src = "assets/images/tours/masp.jpg"; 
-        imgPointB.src = "assets/images/tours/tomie_ohtake.jpg"; 
-        imgPointC.src = "assets/images/tours/museu_imigracao.jpg"; 
+        imgPointA.src = "assets/images/historical1.jpg"; 
+        imgPointB.src = "assets/images/historical2.jpg"; 
+        imgPointC.src = "assets/images/historical3.jpg"; 
        
     }
     else if(tourId == "tour3")
