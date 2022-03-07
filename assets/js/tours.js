@@ -35,9 +35,9 @@ function tourSelected(tourId) {
         pPointB.innerHTML = "Located on the way to Rodovia do Sol, Guarapari has more than 50 beaches and you can certainly explore a good part of the Espírito Santo coast there.Praia dos Padres is one of the city's favorites and is located in the midst of coconut trees that surround the beach and make the view even more incredible.Next to the beach there are also some trails that lead to higher areas from where it is possible to have privileged views of the beach.";
         pPointC.innerHTML = "If you are one of those people who love deserted beaches and preserved nature, Praia do Bosque is your place.It is located in the municipality of São Mateus, on the northern coast of the state, which is less explored by tourists, and precisely because of this it is possible to find places as calm as Praia do Bosque.";
     
-        imgPointA.src = "assets/images/tours/bixiga.jpg"; 
-        imgPointB.src = "assets/images/tours/terraco_ita.jpg"; 
-        imgPointC.src = "assets/images/tours/famiglia_mancini.jpg"; 
+        imgPointA.src = "assets/images/beach1.jpg"; 
+        imgPointB.src = "assets/images/"; 
+        imgPointC.src = "assets/images/"; 
 
     }
     else if(tourId == "tour2")
