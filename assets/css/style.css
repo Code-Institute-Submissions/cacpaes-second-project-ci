@@ -67,7 +67,7 @@ p {
     background-color: #D97A9A;
 }
 
-.logo h1 {
+.logo h2 {
     text-transform: uppercase;
     color: white;
     font-size: 3rem;
@@ -296,7 +296,7 @@ p {
     max-width: 550px;
     margin: 0 auto;
 }
-#tours .tour-top h2 {
+#tours .tour-top h3 {
     font-size: 1.8rem;
     font-weight: 500;
     letter-spacing: .2rem;
@@ -495,6 +495,9 @@ p {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+#footer h6{
+    color: #D97A9A;
+}    
 #footer .social-icon {
     display: flex;
     margin-bottom: 30px;
