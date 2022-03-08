@@ -1,4 +1,4 @@
-<h1>Espírito Santo State</h1>
+<h1>State of Espírito Santo</h1>
 <p>This page aims to provide a memorable experience in the State of Espírito Santo.
 
 The central idea is to show the main tourist spots and offer tourist guide service. .
