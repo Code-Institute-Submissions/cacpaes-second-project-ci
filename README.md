@@ -4,9 +4,10 @@
 The central idea is to show the main tourist spots and offer tourist guide service. .
 </P>
 
-[View website in GitHub Pages]()
+[View website in GitHub Pages](https://cacpaes.github.io/second-project-ci/)
 
-![Untitled]()
+![responsive](https://user-images.githubusercontent.com/93129370/157342291-9ac90d13-6f1c-404f-9044-b8b36e5d7bcc.png)
+
 
 <h2>Content Navegation</h2>
 
