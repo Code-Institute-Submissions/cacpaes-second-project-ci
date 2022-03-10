@@ -87,13 +87,11 @@ The central idea is to show the main tourist spots and offer tourist guide servi
 
 <h3>Site owner goals</h3>
 
-* 
+* Shows beautiful places in ES
 
-* 
+* Talk a little about the history of the State of Espírito Santo
 
-* 
-
-* 
+* Attract people interested in traveling 
 
 <h3>Colour scheme</h3>
 
