@@ -180,9 +180,8 @@ The central idea is to show the main tourist spots and offer tourist guide servi
 
 <h3>Content</h3>
 
-* 
-
-* 
+* The content was extract from the official content web site [Governo do Espírito Santo](https://www.es.gov.br/)
+* The selection and compound of the tours and the texts was self-made
 
 <h3>Media</h3>
 
