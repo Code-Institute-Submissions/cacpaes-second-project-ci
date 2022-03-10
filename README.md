@@ -60,7 +60,7 @@ The central idea is to show the main tourist spots and offer tourist guide servi
 * The wireframe was created using the Balsamiq tool.
 
 ![wireframe](https://user-images.githubusercontent.com/93129370/157561212-abb3427a-a73a-445f-913d-8443a69995e6.png)
-)
+
 
 <h2>UX/UI Design</h2>
 
