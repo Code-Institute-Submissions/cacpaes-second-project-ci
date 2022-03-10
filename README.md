@@ -197,7 +197,7 @@ The central idea is to show the main tourist spots and offer tourist guide servi
 
 * Code Institute for all the support.
 
-*
+
 
 
 
