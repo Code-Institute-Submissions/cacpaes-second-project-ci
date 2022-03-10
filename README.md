@@ -166,7 +166,7 @@ The central idea is to show the main tourist spots and offer tourist guide servi
 
 <p>The deployment process was made based on learnt on User Centric Frontend Development Git classes:</p>
 
-* From the repository location [Repository](), go to settings GitHub Pages section and select the branch "Master" on the source dropdown and click on Save button;
+* From the repository location [Repository](https://github.com/cacpaes/second-project-ci), go to settings GitHub Pages section and select the branch "Master" on the source dropdown and click on Save button;
 
 * Then, it will automatically publish the project to GitHub Pages and displays the site URL created;
 
