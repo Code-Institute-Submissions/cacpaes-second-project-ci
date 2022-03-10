@@ -75,9 +75,9 @@ The central idea is to show the main tourist spots and offer tourist guide servi
 
 <h3>Visitors to this site are looking for:</h3>
 
-* 
+* A contact channel for hiring Tourist Guide services.
 
-* 
+* Learn more about the State of Espírito Santo - ES. 
 
 <h3>This project is the best way to help them achieve these things because:</h3>
 
