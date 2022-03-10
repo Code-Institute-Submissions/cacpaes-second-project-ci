@@ -66,11 +66,12 @@ The central idea is to show the main tourist spots and offer tourist guide servi
 
 <h3>Expected traffic to this site:</h3>
 
-* 
+* People interested in topics related to tourism.
 
-* 
+* People interested in traveling, mainly with a focus on beaches, crafts and history.
 
-* 
+* People looking to relax.
+
 
 <h3>Visitors to this site are looking for:</h3>
 
