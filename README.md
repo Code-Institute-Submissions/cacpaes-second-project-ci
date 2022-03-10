@@ -141,13 +141,6 @@ The central idea is to show the main tourist spots and offer tourist guide servi
 
 * Footer with social media links.
 
-
-<h3>Resources to be implemented</h3>
-
-* Testimonials: 
-
-* Calendar:
-
 <h2>Testing</h2>
 
 * [HTML validation]()
