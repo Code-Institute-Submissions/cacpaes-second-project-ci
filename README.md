@@ -97,7 +97,8 @@ The central idea is to show the main tourist spots and offer tourist guide servi
 
 * Here is an image of the color palette (Coolors).
 
-![]()
+![co](https://user-images.githubusercontent.com/93129370/157637810-5d4bb29e-93ed-4ef5-be5b-fc174bc7e7bc.png)
+
 
 <h2>Technologies Used</h2>
 
