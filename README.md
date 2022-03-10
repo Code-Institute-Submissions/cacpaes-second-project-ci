@@ -125,6 +125,8 @@ The central idea is to show the main tourist spots and offer tourist guide servi
 
 <h2>Features</h2>
 
+<h3>Existing Features</h3>
+
 * Designed with HTML5, CSS3, JavaScript.
 
 * Home/Landing page with 4 pages in total.
