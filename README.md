@@ -186,7 +186,13 @@ The central idea is to show the main tourist spots and offer tourist guide servi
 
 <h3>Media</h3>
 
-* 
+* Looking for training to create HTML layouts independently of bootstrap use I ended up on WEB CIFAR channel, where I did the three hours class and build the structure of this layout
+* The layout conception from [WEB CIFAR](https://www.youtube.com/channel/UCdxaLo9ALJgXgOUDURRPGiQ)
+* Text Reveal Effect [WEB CIFAR](https://www.youtube.com/channel/UCdxaLo9ALJgXgOUDURRPGiQ)
+* Responsive Nav-bar [WEB CIFAR](https://www.youtube.com/channel/UCdxaLo9ALJgXgOUDURRPGiQ)
+* Hambuger [WEB CIFAR](https://www.youtube.com/channel/UCdxaLo9ALJgXgOUDURRPGiQ)
+* Home, About and Tour sections images from [Pexels.com](https://www.pexels.com/pt-br/)
+* All the icons from [Icons8](https://icons8.com/)
 
 <h2>Acknowledgements</h2>
 
