@@ -125,6 +125,20 @@ The central idea is to show the main tourist spots and offer tourist guide servi
 
 <h2>Features</h2>
 
+* Designed with HTML5, CSS3, JavaScript.
+
+* Home/Landing page with 4 pages in total.
+
+* Fixed navigation allows the user to easily navigate, regardless of which page visited.
+
+* About section features State of Espírito Santo.
+
+* Tours section suggests tour options to users.
+
+* Tell Us section has a Contact Form to allow users to request a personalized tour.
+
+* Footer with social media links.
+
 <p>.</p>
 
 <h3>Existing Features</h3>
