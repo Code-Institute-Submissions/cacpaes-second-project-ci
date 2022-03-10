@@ -81,9 +81,9 @@ The central idea is to show the main tourist spots and offer tourist guide servi
 
 <h3>This project is the best way to help them achieve these things because:</h3>
 
-* 
+* Developed by search engines like Google, it has become the easiest way to contact a tourist guide, get information about tour prices and how it works.
 
-* 
+* This site is very simple, allowing the visitor to discover everything they are looking for about places to visit and hire this service with just a few clicks.
 
 <h3>Site owner goals</h3>
 
