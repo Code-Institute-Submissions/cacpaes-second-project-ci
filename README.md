@@ -33,8 +33,6 @@ The central idea is to show the main tourist spots and offer tourist guide servi
 
   - [Existing Features](#existing-features)
 
-  - [Resources to be implemented](#resources-to-be-implemented)
-
 * [Testing](#testing)
 
   - [Project Issues](#project-issues)
