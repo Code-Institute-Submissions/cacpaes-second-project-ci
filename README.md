@@ -143,11 +143,13 @@ The central idea is to show the main tourist spots and offer tourist guide servi
 
 <h2>Testing</h2>
 
-* [HTML validation]()
+* [HTML validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcacpaes.github.io%2Fsecond-project-ci%2F)
 
-* [CSS validation])
+* [CSS validation](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcacpaes.github.io%2Fsecond-project-ci%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-* [Mobile Friendly Test])
+* [JSHint JavaScript Validator](https://jshint.com/)
+
+* [Mobile Friendly Test](https://search.google.com/test/mobile-friendly/result?id=N3Ia7M9iScMF2KXTFoql0g)
 
 * Browse compatibility check
 
