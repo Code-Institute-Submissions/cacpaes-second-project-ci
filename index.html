@@ -1,59 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="title" content="State of Espírito Santo">
-    <meta name="description" content="See a little of Espírito Santo">  
-    <link rel="stylesheet" href="assets/css/style.css"> 
+    <meta name="description" content="See a little of Espírito Santo">
+    <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
     <title>State of Espírito Santo</title>
 </head>
+
 <body>
     <!-- header -->
     <section id="header">
         <div class="header container">
             <div class="nav-bar">
                 <div class="logo">
-                    <a href="#home"><h2>Espírito Santo</h2></a>
+                    <a href="#home">
+                        <h2>Espírito Santo</h2>
+                    </a>
                 </div>
                 <div class="nav-list">
-                    <div class="menu"><div class="bar"></div></div>
+                    <div class="menu">
+                        <div class="bar"></div>
+                    </div>
                     <ul>
-                    <li><a href="#about" data-after="About">About</a></li>
-                    <li><a href="#tours" data-after="Tours">Tours</a></li>
-                    <li><a href="#more" data-after="More">Tell Us</a></li>
+                        <li><a href="#about" data-after="About">About</a></li>
+                        <li><a href="#tours" data-after="Tours">Tours</a></li>
+                        <li><a href="#more" data-after="More">Tell Us</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
-    <!-- end header --> 
+    <!-- end header -->
     <!-- home section  -->
     <section id="home">
         <div class="home container">
             <div>
                 <h2>See</h2>
                 <h2> a little of </h2>
-                <h2>Espírito Santo  </h2>
+                <h2>Espírito Santo </h2>
             </div>
         </div>
     </section>
-    <!-- end home Section  --> 
-     <!-- about section -->
-     <section id="about">
+    <!-- end home Section  -->
+    <!-- about section -->
+    <section id="about">
         <div class="about container">
             <div class="col-left">
                 <div class="about-img">
-                <img src="assets/images/bandeiraes.png" alt="Bandeira do ES">
+                    <img src="assets/images/bandeiraes.png" alt="Bandeira do ES">
                 </div>
             </div>
             <div class="col-right">
                 <h2 class="section-title">About Espírito Santo</h2>
                 <h3>State of <span>Espírito Santo</span></h3>
-                <p> Espírito Santo is one of the 27 Brazilian states and is located in the Southeast Region of the country. It is the fourth smallest in terms of territorial extension, disregarding the Federal District. It has a coastline of 400 km , and the maritime environment has a great influence on its climate, which is predominantly humid tropical.
-                With regard to vegetation cover, it has characteristics of the Atlantic Forest biome, in which the state is located. The economy of Espírito Santo is led by the industrial sector , with emphasis on the extractive industry. The state is also a major coffee producer.
+                <p> Espírito Santo is one of the 27 Brazilian states and is located in the Southeast Region of the
+                    country. It is the fourth smallest in terms of territorial extension, disregarding the Federal
+                    District. It has a coastline of 400 km , and the maritime environment has a great influence on its
+                    climate, which is predominantly humid tropical.
+                    With regard to vegetation cover, it has characteristics of the Atlantic Forest biome, in which the
+                    state is located. The economy of Espírito Santo is led by the industrial sector , with emphasis on
+                    the extractive industry. The state is also a major coffee producer.
                 </p>
             </div>
         </div>
@@ -68,22 +79,28 @@
             </div>
             <div class="tour-bottom">
                 <div class="tour-item" id="tour1" onclick="tourSelected(this.id);">
-                    <div class="icon"><img src="https://img.icons8.com/external-wanicon-lineal-color-wanicon/64/000000/external-beach-travel-wanicon-lineal-color-wanicon.png" alt="img"/></div>
+                    <div class="icon"><img
+                            src="https://img.icons8.com/external-wanicon-lineal-color-wanicon/64/000000/external-beach-travel-wanicon-lineal-color-wanicon.png"
+                            alt="img" /></div>
                     <h2>Beaches</h2>
                     <p>Beautiful beaches to discover and enjoy the day</p>
                 </div>
                 <div class="tour-item" id="tour2" onclick="tourSelected(this.id);">
-                    <div class="icon"><img src="https://img.icons8.com/external-dreamcreateicons-fill-lineal-dreamcreateicons/64/000000/external-barrier-museum-dreamcreateicons-fill-lineal-dreamcreateicons.png" alt="img"/></div>
+                    <div class="icon"><img
+                            src="https://img.icons8.com/external-dreamcreateicons-fill-lineal-dreamcreateicons/64/000000/external-barrier-museum-dreamcreateicons-fill-lineal-dreamcreateicons.png"
+                            alt="img" /></div>
                     <h2>Historical places</h2>
                     <p>There are more than beaches in ES.</p>
                 </div>
                 <div class="tour-item" id="tour3" onclick="tourSelected(this.id);">
-                    <div class="icon"><img src="https://img.icons8.com/fluency/48/000000/point-of-interest.png" alt="img"/></div>
+                    <div class="icon"><img src="https://img.icons8.com/fluency/48/000000/point-of-interest.png"
+                            alt="img" /></div>
                     <h2>Places to visit</h2>
                     <p>Indoor and outdoor activities</p>
                 </div>
                 <div class="tour-item" id="tour4" onclick="tourSelected(this.id);">
-                    <div class="icon"><img src="https://img.icons8.com/emoji/48/000000/shopping-bags.png" alt="img"/></div>
+                    <div class="icon"><img src="https://img.icons8.com/emoji/48/000000/shopping-bags.png" alt="img" />
+                    </div>
                     <h2>Shopping time</h2>
                     <p>Take the ES with you</p>
                 </div>
@@ -96,97 +113,110 @@
         <div class="tourDetails container">
             <div class="tourDetails-header">
                 <h2 class="section-title">Some places in ES</h2>
-            </div>                      
-                <div class="tourDetail-item">
-                    <div class="tourDetail-info">
-                        <h3>Point A</h3>
-                        <a href="#" id="a-pointA" target="_blank" title="Learn more" rel="noopener"><h2 id="h2-pointA">a</h2></a>
-                        <p id="p-pointA"></p>
-                    </div>
-                    <div class="tourDetail-img">
-                        <img id="img-pointA" src="assets/images/victory-g7c03e2dcd_1500.jpg" alt="img">
-                    </div>
-                </div>
-                <div class="tourDetail-item">
-                    <div class="tourDetail-info">
-                        <h3>Point B</h3>
-                        <a href="#" id="a-pointB" target="_blank" title="Learn more" rel="noopener"><h2 id="h2-pointB">b</h2></a>
-                        <p id="p-pointB"></p>
-                    </div>
-                    <div class="tourDetail-img">
-                        <img id="img-pointB" src="assets/images/victory-g7c03e2dcd_1500.jpg" alt="img"  >
-                    </div>
-                </div>
-                <div class="tourDetail-item">
-                    <div class="tourDetail-info">
-                        <h3>Point C</h3>
-                        <a href="#" id="a-pointC" target="_blank" title="Learn more" rel="noopener"><h2 id="h2-pointC">c</h2></a>
-                        <p id="p-pointC"></p>
-                    </div>
-                    <div class="tourDetail-img">
-                        <img id="img-pointC" src="assets/images/victory-g7c03e2dcd_1500.jpg" alt="img">
-                    </div>
-                </div>                                
-        </div>
-        
-    </section>
-    <!-- end tourDetail section -->
-    <!-- more section -->
-        <!--Inspired by the Rosie's project from a CI class-->
-        <section id="more">
-            <div class="more container">
-                <div class="more-top">
-                    <h2 class="section-title">Get your tour</h2>
-                    <h3>Tell us your interests and take a personalized tour of ES</h3>
-                </div>
-                <div class="more-form">
-                    <form >
-                        <input type="text" name="name" id="fullname" class="more-form-input" placeholder="Name" required />
-                        <input type="email" name="email" id="emailaddress" class="more-form-input" placeholder="e-Mail" required />
-                        <textarea rows="5" name="message" id="message" class="more-form-input" placeholder="Message" required></textarea>
-                        <div class="more-form-button">
-                            <button type="submit" class="cta">Send Tour Request</button>
-                        </div>
-                    </form>
-                </div>         
-            </div>            
-        </section>
-        <!-- endinfo section -->
-        
-         <!-- footer -->
-        <section id="footer"><h6>Footer</h6>
-            <div class="footer container">
-                <div class="social-icon">
-                    <div class="social-item">
-                        <a href="https://www.facebook.com/prefeituraespiritosanto/" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" alt="img"/></a>
-                    </div>
-                    <div class="social-item">
-                        <a href="https://www.instagram.com/governo_es/" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" alt="img"/></a>
-                    </div>
-                    <div class="social-item">
-                        <a href="https://twitter.com/governoes?lang=en" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png" alt="img"/></a>
-                    </div>
-                    <div class="social-item">
-                        <a href="https://www.youtube.com/user/governoes" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/youtube.png" alt="img"/></a>
-                    </div>
-                </div>
-                <p>Developed by <a href="https://github.com/cacpaes/second-project-ci" target="_blank">Carlos Carvalho</a></p>
             </div>
-        </section>
-        <!-- end footer -->  
-        <div class="modal">
-            <div class="modal-content">
-                <span class="close-button">×</span>
-                <h1 id="model-message">Menu</h1>
+            <div class="tourDetail-item">
+                <div class="tourDetail-info">
+                    <h3>Point A</h3>
+                    <a href="#" id="a-pointA" target="_blank" title="Learn more" rel="noopener">
+                        <h2 id="h2-pointA">a</h2>
+                    </a>
+                    <p id="p-pointA"></p>
+                </div>
+                <div class="tourDetail-img">
+                    <img id="img-pointA" src="assets/images/victory-g7c03e2dcd_1500.jpg" alt="img">
+                </div>
+            </div>
+            <div class="tourDetail-item">
+                <div class="tourDetail-info">
+                    <h3>Point B</h3>
+                    <a href="#" id="a-pointB" target="_blank" title="Learn more" rel="noopener">
+                        <h2 id="h2-pointB">b</h2>
+                    </a>
+                    <p id="p-pointB"></p>
+                </div>
+                <div class="tourDetail-img">
+                    <img id="img-pointB" src="assets/images/victory-g7c03e2dcd_1500.jpg" alt="img">
+                </div>
+            </div>
+            <div class="tourDetail-item">
+                <div class="tourDetail-info">
+                    <h3>Point C</h3>
+                    <a href="#" id="a-pointC" target="_blank" title="Learn more" rel="noopener">
+                        <h2 id="h2-pointC">c</h2>
+                    </a>
+                    <p id="p-pointC"></p>
+                </div>
+                <div class="tourDetail-img">
+                    <img id="img-pointC" src="assets/images/victory-g7c03e2dcd_1500.jpg" alt="img">
+                </div>
             </div>
         </div>
 
-        <!--scripts-->
-        <script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7ImSZAMzJp1dz8GebhxeIzGwxI5sgjtQ&callback=initMap&libraries=&v=weekly" async></script>            
-        <script src="assets/js/app.js"></script>    
-        <script src="assets/js/tours.js"></script>    
-        <script src="assets/js/email.js"></script>    
-        <!--scripts-->
+    </section>
+    <!-- end tourDetail section -->
+    <!-- more section -->
+    <!--Inspired by the Rosie's project from a CI class-->
+    <section id="more">
+        <div class="more container">
+            <div class="more-top">
+                <h2 class="section-title">Get your tour</h2>
+                <h3>Tell us your interests and take a personalized tour of ES</h3>
+            </div>
+            <div class="more-form">
+                <form>
+                    <input type="text" name="name" id="fullname" class="more-form-input" placeholder="Name" required />
+                    <input type="email" name="email" id="emailaddress" class="more-form-input" placeholder="e-Mail"
+                        required />
+                    <textarea rows="5" name="message" id="message" class="more-form-input" placeholder="Message"
+                        required></textarea>
+                    <div class="more-form-button">
+                        <button type="submit" class="cta">Send Tour Request</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- endinfo section -->
+
+    <!-- footer -->
+    <section id="footer">
+        <h6>Footer</h6>
+        <div class="footer container">
+            <div class="social-icon">
+                <div class="social-item">
+                    <a href="https://www.facebook.com/prefeituraespiritosanto/" target="_blank"><img
+                            src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" alt="img" /></a>
+                </div>
+                <div class="social-item">
+                    <a href="https://www.instagram.com/governo_es/" target="_blank"><img
+                            src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" alt="img" /></a>
+                </div>
+                <div class="social-item">
+                    <a href="https://twitter.com/governoes?lang=en" target="_blank"><img
+                            src="https://img.icons8.com/bubbles/100/000000/twitter.png" alt="img" /></a>
+                </div>
+                <div class="social-item">
+                    <a href="https://www.youtube.com/user/governoes" target="_blank"><img
+                            src="https://img.icons8.com/bubbles/100/000000/youtube.png" alt="img" /></a>
+                </div>
+            </div>
+            <p>Developed by <a href="https://github.com/cacpaes/second-project-ci" target="_blank">Carlos Carvalho</a>
+            </p>
+        </div>
+    </section>
+    <!-- end footer -->
+    <div class="modal">
+        <div class="modal-content">
+            <span class="close-button">×</span>
+            <h1 id="model-message">Menu</h1>
+        </div>
+    </div>
+
+    <!--scripts-->
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/tours.js"></script>
+    <script src="assets/js/email.js"></script>
+    <!--scripts-->
 </body>
+
 </html>
