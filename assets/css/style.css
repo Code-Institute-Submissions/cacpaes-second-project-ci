@@ -328,6 +328,7 @@ p {
     z-index: 1;
     overflow: hidden;
     cursor: pointer;
+    height: 270px;
 }
 #tours .tour-item::after {
     content: '';
