@@ -19,6 +19,10 @@ a {
     color: white;
 }
 
+section {
+    width: 100vw;
+}
+
 .container {
     min-height: 600px;
     width: 100%;
@@ -205,7 +209,8 @@ p {
 #home {
     background-image: url(../images/victory-g7c03e2dcd_1500.jpg);
     background-position: top center;
-    background-size: cover;
+    background-size: initial;
+    background-repeat: no-repeat;
     position: relative;
     z-index: 1;
 }
