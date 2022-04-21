@@ -11,7 +11,7 @@ html {
     font-family:Arial, verdana, Helvetica, sans-serif;
     min-width: 300px;
     max-width: 1920px;
-    
+    overflow-x: hidden;
 }
 
 a {
@@ -272,7 +272,7 @@ p {
 }    
 #about .col-right p {
     margin-bottom: 20px;
-    text-align: justify;
+    text-align: left;
 }
 #about .col-right .cta {
     color: black;
@@ -449,9 +449,8 @@ p {
     margin: 0 auto;
 }
 #more .more-top h3 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 500;
-    letter-spacing: .2rem;
     margin-bottom: 10px;
 }
 #more .more-form{
@@ -483,6 +482,18 @@ p {
     font-size: 1.8rem;
 }
 /* end section more */
+
+/*Botton*/
+#link-top {
+    color: #ffff;
+    background-color: #f1cbd8;
+    position: fixed;
+    font-size: 30px;
+    right: 10px;
+    bottom: 210px;
+}
+/*end the botton*/
+
 /* footer */
 #footer {
     background-image: linear-gradient(60deg, #D97A9A 0%, #84CEE3 100%);
@@ -615,20 +626,6 @@ p {
     }
     /* end home */  
 }
-
-@media only screen and (max-width: 768px) {
-    #tourDetails .tourDetail-map {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        width: 80%;
-        margin: 20px auto;
-        overflow: hidden;
-        border-radius: 10px;
-    }
-    
-}
-
 /* media query for tablet */
 @media only screen and (min-width: 768px) {
     h1.section-title {
