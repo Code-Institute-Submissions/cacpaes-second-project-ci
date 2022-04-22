@@ -165,9 +165,9 @@
                 <h3>Tell us your interests and take a personalized tour of ES</h3>
             </div>
             <div class="more-form">
-                <form>
-                    <input type="text" name="name" id="fullname" class="more-form-input" placeholder="Name" required />
-                    <input type="email" name="email" id="emailaddress" class="more-form-input" placeholder="e-Mail"
+                <form onsubmit="return sendMail(this);" class="contact-form" target="_blank">
+                    <input type="text" name="name" id="name" class="more-form-input" placeholder="Name" required />
+                    <input type="email" name="email" id="email" class="more-form-input" placeholder="e-Mail"
                         required />
                     <textarea rows="5" name="message" id="message" class="more-form-input" placeholder="Message"
                         required></textarea>

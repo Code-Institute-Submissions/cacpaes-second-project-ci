@@ -1,27 +1,23 @@
 //Email sent via EmailJS.com
 function sendMail(contactForm) {
     //to be initialized only when emails are shoot
-    (
-        function () {
-            emailjs.init("user_0BZMRCosKk3Deu2SP4gSu");
-        })();
+    (function () {
+        emailjs.init("EWIEBcRHIrJ17bUfr");
+    })();
 
-    emailjs.send("service_a4q9k6q", "test", {
+    emailjs.send("service_2ne4vg6", "template_o6owrgp", {
             from_name: contactForm.name.value,
             to_name: contactForm.email.value,
             message: contactForm.message.value,
-            reply_to: "cacarvalho.paes@gmail.com",
         })
-        .then(
-            function (response) {
+        .then(function (response) {
                 console.log("SUCCESS", response);
                 toggleModal("Curiosity always pays back! Soon you'll get a tailor-made tour in your inbox.");
             },
             function (error) {
                 console.log("FAILED", error);
-                toggleModal("Failed to attempt to submit your order. Please try again later.");
-            }
-        );
+                toggleModal("Failed to attempt to submit your request. Please try again later.");
+            });
     contactForm.name.value = "";
     contactForm.email.value = "";
     contactForm.message.value = "";
