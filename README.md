@@ -6,7 +6,7 @@ The central idea is to show the main tourist spots and offer tourist guide servi
 
 [View website in GitHub Pages](https://cacpaes.github.io/second-project-ci/)
 
-![responsive](https://user-images.githubusercontent.com/93129370/157342291-9ac90d13-6f1c-404f-9044-b8b36e5d7bcc.png)
+![responsiv](https://user-images.githubusercontent.com/93129370/165063364-7c1e9793-476a-4d91-8c06-612bbb88fe85.png)
 
 
 <h2>Content Navegation</h2>
@@ -141,19 +141,41 @@ The central idea is to show the main tourist spots and offer tourist guide servi
 
 <h2>Testing</h2>
 
-* [HTML validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcacpaes.github.io%2Fsecond-project-ci%2F)
+* I ran the tests on multiple devices and different browsers, in order to cover the widest possible range of screen sizes and models.
 
-* [CSS validation](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcacpaes.github.io%2Fsecond-project-ci%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+<h3>Navegation and Devices</h3>
 
-* [JSHint JavaScript Validator](https://jshint.com/)
+* Browsers
 
-* [Mobile Friendly Test](https://search.google.com/test/mobile-friendly/result?id=N3Ia7M9iScMF2KXTFoql0g)
+  - Chrome
+  - Firefox
+  - Safari
+  - Edge
 
-* Browse compatibility check
+* Devices
 
-* Test links from navigation menu to each section
- 
-* Lighthouse  DevTools
+  - Apple: Iphone SE, Iphone 13 Pro Max, Iphone 8, Iphone XR, Iphone 12 Pro, Ipad Air, Ipad Mini.
+  - Samsung: Galaxy S8+, Galaxy S20 Ultra, Galaxy A51/71, Galaxy Tab S4, Galaxy Note II.
+  - Motorola: Moto G4.
+  - LG: Optimus L70, Nexus 4, Nexus 5, Nexus 10.
+  - Google: Pixel 2, Pixel 5, Pixel 3 XL.
+
+<h3>Validator Testing</h3>
+
+* HTML
+  - No errors were found when passing through the official W3C Jigsaw [Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcacpaes.github.io%2Fsecond-project-ci%2F)
+
+* CSS
+  - No errors were returned when passing through the official W3C [Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcacpaes.github.io%2Fsecond-project-ci%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+* JavaScript
+  - No errors or relevant issues were found when passing through the official [JSHint Validator](https://jshint.com/)
+
+<h3>Performance Testing</h3>
+
+* Lighthouse DevTools
+
+![performance](https://user-images.githubusercontent.com/93129370/165062224-fd6ead68-04d4-4788-bac6-ddc6263d3290.png)
 
 <h3>Project Issues</h3>
 
