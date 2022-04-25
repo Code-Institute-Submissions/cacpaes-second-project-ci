@@ -180,7 +180,7 @@ The central idea is to show the main tourist spots and offer tourist guide servi
 <h3>Project Issues</h3>
 
 * Difficult in mobile responsive. I found the solution at Responsive Elements  - [Code Institude](https://codeinstitute.net/ie/);
-
+* Console errors during page load/execution of user actions throws an "InvalidValueError" on page load. Removed script that called this function.
 
 <h2>Deployment</h2>
 
